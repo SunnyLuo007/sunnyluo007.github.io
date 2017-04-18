@@ -1,0 +1,50 @@
+# Site settings
+title: Sunny的博客
+email: luotaoyang@163.com
+description: > # this means to ignore newlines until "baseurl:"
+  Sunny的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://sunnyluo007.github.io # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: SunnyLuo
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+#twitter: 
+#weibo: 
+github: SunnyLuo007
+#instagram: 
+#linkedin: 
+
+# avatar and Favicon
+avatar: https://avatars3.githubusercontent.com/u/12265643?v=3&s=460
+favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+# disqus config
+disqus:
+  shortname: Sunny
+
+# google analytics config
+#ga:
+#  id: UA-54767140-1
+#  url: yansu.org
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
