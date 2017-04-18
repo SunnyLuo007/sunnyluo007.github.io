@@ -4,7 +4,7 @@ email: luotaoyang@163.com
 description: > # this means to ignore newlines until "baseurl:"
   Sunny的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://sunnyluo007.github.io # the base hostname & protocol for your site
+url: http://blog.opsdev.help # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: SunnyLuo
 
@@ -21,8 +21,8 @@ github: SunnyLuo007
 #linkedin: 
 
 # avatar and Favicon
-avatar: https://avatars3.githubusercontent.com/u/12265643?v=3&s=460
-favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+avatar: /assets/img/12265643.jpg
+favicon: /assets/icon/favicon.ico
 
 # disqus config
 disqus:
