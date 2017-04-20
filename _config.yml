@@ -30,8 +30,8 @@ favicon: /assets/icon/favicon.ico
 
 # google analytics config
 #ga:
-#  id: UA-54767140-1
-#  url: yansu.org
+#  id: UA-5440-1
+#  url: 
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
