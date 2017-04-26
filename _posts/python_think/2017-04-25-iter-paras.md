@@ -65,13 +65,13 @@ it = ReadData('data.txt')
 percents = normalize(it)
 print(percents)
 ```
-原理：
+原理:  
 先举个例子：
 
 ```py
 for x in foo
 ```
-执行上述代码时，python实际上会调用iter(foo)。而内置的iter函数会调用foo.__iter__这个魔术方法。该方法必须返回迭代器对象，而这个迭代器对象本省实现里__next__的魔术方法。此后，for循环会在迭代器对象上反复调用内置的next函数，直到迭代器耗尽抛出StopIteration异常。  
+执行上述代码时，python实际上会调用iter(foo)。而内置的iter函数会调用foo.__iter__这个魔术方法。该方法必须返回迭代器对象，而这个迭代器对象本身实现了__next__的魔术方法。此后，for循环会在迭代器对象上反复调用内置的next函数，直到迭代器耗尽抛出StopIteration异常。  
 所以，在类中只需要实现__iter__方法就能实现一个可迭代的容器类。在sum()和for调用这个类时，都会返回一个新的迭代器。从而实现我们题目中的需求。  
 改进的normalize函数：
 
