@@ -1,9 +1,9 @@
 ---
 layout: post
-title: locals globals dir global 和 nonlocal
+title: Python变量与作用域相关内置函数的应用
 category: Python
 tags: [python]
-keywords: python,think,effective
+keywords: python,vars,locals,globals,dir,global,nonlocal
 ---
 ### 概述
 今天来谈谈dir locals globals global和nonlocal的作用。  
