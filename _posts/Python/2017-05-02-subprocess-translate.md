@@ -8,7 +8,7 @@ keywords: python,subprocess
 
 > 本篇文章由Sunny翻译自：[subprocess -- Spawning Additional Processes](https://pymotw.com/3/subprocess/index.html)  
 > 相关内容版权归原作者所有，转载请注明出处。   
-> 本文原文地址：http://blog.opsdev.help/2017/05/02/subprocess.html  
+> 本文原文地址：http://blog.opsdev.help/2017/05/02/subprocess-translate.html  
 > 同时再次墙裂推荐https://pymotw.com/3/这个网站。再次感谢原作者。
 
 **用途：** 启动进程和与其他进程通信
